@@ -1,7 +1,7 @@
 {
     "id": "<need_to_add_id>",
     "name": "auklet_example",
-    "url": "https://raw.githubusercontent.com/lmullany/auklet_example/main/example_data_dict.csv",
+    "url": "https://raw.githubusercontent.com/lmullany/auklet_example/main/example_data.csv",
     "isDirectDataUrl": true,
     "dataFileExtension": "csv",
     "httpRequestHeaders": null,
