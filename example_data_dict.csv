@@ -1,0 +1,15 @@
+Short Description,Variable Name,Questions/Var Description,"Values, Labels",Constraints,Format,Variable Type,Created From (Mapping Vars/Dataset),Creation and Use Notes,Minimum,Maximum
+State or territory of residence,jurisdiction,State/Territory of Residence,"Alabama | Alaska | American Samoa | Arizona | Arkansas | California | Chicago-Cook County, IL | Colorado | Connecticut | Delaware | District of Columbia | Florida | Georgia | Guam | Hawaii | Houston, TX | Idaho | Illinois | Indiana | Iowa | Kansas | Kentucky | Los Angeles County, CA | Louisiana | Maine | Marshall Islands | Maryland | Massachusetts | Michigan | Micronesia | Minnesota | Mississippi | Missouri | Montana | Nebraska | Nevada | New Hampshire | New Jersey | New Mexico | New York | New York City | North Carolina | North Dakota | Northern Mariana Islands | Ohio | Oklahoma | Oregon | Palau | Pennsylvania | Philadelphia, PA | Puerto Rico | Rhode Island | South Carolina | South Dakota | Tennessee | Texas | Tribal Area | Utah | Vermont | Virgin Islands | Virginia | Washington | West Virginia | Wisconsin | Wyoming",,,char,"Original CRF: hh_state
+Call Center database: State_of_Residency
+NNDSS HL7 GenV2: Subject Address State",,,
+Case ID,case_id,Case ID,,,,int,,,,
+Age in Years,age_years,"What is your age, in years?",,,,int,"Original CRF: dem_age
+Call Center database: Age_Years
+NNDSS HL7 GenV2: Age at Case Investigation",,0,120
+Race,race,What is your race? (Check all that apply.),American Indian or Alaska Native | Asian | Black or African American | Native Hawaiian or Other Pacific Islander | White | Other | Declined to answer | Unknown,,,char,"Original CRF: dem_race
+Call Center database: Race
+NNDSS HL7 GenV2: Race Category",,,
+Dosage,dosage,Dosage of X medication,,,,numeric,,,0,500
+Symptom codes,symptoms,Symptom codes taken from caregiver survey,1 = headache | 2 = fever | 3 = rash | 4 = nausea,,,array<integer>,,,,
+First Vaccination,first_vax,Date of first vaccination,,,,date,,,4/5/23,
+Registration Date,registration_date,"Date of registration, must be on first of the year after 2020",1/1/2020 | 1/1/2021 |  1/1/2022 |  1/1/2023,,,date,,,,
