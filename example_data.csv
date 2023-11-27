@@ -1,0 +1,7 @@
+﻿case_id,jurisdiction,age_years,race,dosage,symptoms,first_vax,registration_date
+1,Alabama,31,White,130.7,"[1,5]",5/11/23, 1/1/2022
+2,Laaska,500,black or afr am,100,"[2, 3.5]",15/5/23, 3/1/2022
+3,ARIZONA,old,invalid race,600,"[rash, headache]",3/2/23 0:00, 1/1/2021
+4,GA,-4,black or african american,high,[scabs],na, 12/4/2022
+5,Connecticut,1.5,Asian,twenty,"[3.5, two]",3.7.23, 01/01/2023
+6,Idho,20,ASIAN,7,"[four, 3]",8-May-23, 12/5/2020
